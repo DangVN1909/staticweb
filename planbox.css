@@ -1,0 +1,28 @@
+.trip {
+    float: left;
+    width: 220px;
+    text-align: center;
+    margin: 0 10px 30px 0;
+    padding-bottom: 20px;
+    border-bottom: 0px dotted #ccc
+}
+
+
+.left-content  {
+float: left;
+margin-bottom: 100px;
+}
+
+
+.name-trip {
+font: 20px "Helvetica Neue",Helvetica,Arial;
+font-weight: bold;
+left: 100px;
+color: white;
+
+}   
+h2 {
+padding-top: 12px;
+padding-left: 20px;
+display: block;
+}

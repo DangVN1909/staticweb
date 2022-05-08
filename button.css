@@ -1,0 +1,75 @@
+.button_add{
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    background-image: url("SENDBUTTON.png");
+    background-color: rgb(99, 31, 31);
+    position: absolute;
+    left: 905px;
+    top: 920px;
+    width: 120px;
+    max-width:90%;
+    height: 50px;
+    z-index: 905;
+    border-radius: 20px;
+}
+/*TABLES*/
+
+.add-button {
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    /* background-image: url("SENDBUTTON.png"); */
+    background-color: #00142A;
+    position: absolute;
+    left: 92%;
+    top: 85%;
+    width: 85px;
+    height: 85px;
+    z-index: 27;
+    border-radius: 50%;
+    font-size: 50px; text-align: center;
+    
+}
+.button-zoomin {
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+    color: #00142A;
+    background-color: white;
+    position: absolute;
+    left: 95%;
+    top: 20%;
+    width: 28px;
+    height: 28px;
+    z-index: 29;
+    border-radius: 20%;
+    font-size: 18px; text-align: top; font-weight: bolder;
+    stroke: none;  
+    
+}
+
+.button-zoomout {
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+    color: #00142A;
+    background-color: white;
+    position: absolute;
+    left: 95%;
+    top: 25%;
+    width: 28px;
+    height: 28px;
+    z-index: 29;
+    border-radius: 20%;
+    font-size: 18px; text-align: top; font-weight: bolder;
+    stroke: none;  
+    
+}
+
+.button_mylocation{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: white;
+    z-index: 80000;
+
+}

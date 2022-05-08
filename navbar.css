@@ -1,0 +1,52 @@
+.plan-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb( 255, 255, 255);
+    text-align: left ;
+    position: absolute;
+    left: 120px;
+    top: 180px;
+    z-index: 1;
+    max-width: 26%;
+    text-align: center;
+    padding-right: 100%;
+    z-index: 3;
+
+}
+
+.product-name-navbar {
+    font-size: 90px;
+    font-family: 'Staatliches', cursive;
+    color: rgba( 255, 255, 255, 0.902);
+    text-align: right;
+    -moz-transform: matrix( 0.65696923614897, 0, 0, 0.65696923614897, 0, 0);
+    -webkit-transform: matrix( 0.65696923614897, 0, 0, 0.65696923614897, 0, 0);
+    -ms-transform: matrix( 0.65696923614897, 0, 0, 0.65696923614897, 0, 0);
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    z-index: 1;
+}
+
+.navbar-background {
+    background-color: #00142A;
+    position: absolute;
+    left: 0px;
+    padding-top: 10px;
+    width: 1920px;
+    height: 70px;
+    display: inline-block;
+}
+
+.attention {
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 28px;
+    /* max-height: 20px;
+    max-width: 300px;
+    padding-bottom: 20px; */
+}

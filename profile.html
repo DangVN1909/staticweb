@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>TravelPlan</title>
     <link REL="SHORTCUT ICON" herf="logo.ico">
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="profile.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,72 +38,81 @@
     <button class="add-button" type="button">+</button>
     <div>
         <div class="navigation">
+
             <div id="title-logo">TRAVELPLAN</div>
             <div id="map"></div>
             <div class=NAV></div>
             <div class=SIDEBAR></div> 
             <div class=CHU_Y> CHÚ Ý GIÃN CÁCH TỐI THIỂU LÀ 2M. <br>Mang khẩu trang khi ra đường, người nhà trở về từ </br>vùng dịch phải tự cách ly tại nhà trong 14 ngày.</div>
-            <div class="nav-items">
-                <ul> 
-                    <div class="nav-items" id="item-1" >my profile</div>
-                    <div class="nav-items" id="item-2" >About</div> 
-                    <div class="nav-items" id="item-3" >Help</div>
-                    <div class="nav-items" id="item-4" >Community</div>
-                    <div class="nav-items" id="item-5" >Service</div>
-                    <img class="nav-items" src=""><img>   
-                </ul>
+            <div class="nav-items" id="item-1" >
+                <div class="nav-items">
+                    <ul> 
+                        <div class="nav-items" id="item-1" >Community</div>
+                        <div class="nav-items" id="item-2" >Service</div>
+                        <div class="nav-items" id="item-3" >Help</div>
+                        <div class="nav-items" id="item-4" >About</div>                </ul>
+                </div>
             </div>
         </div> 
         <!-- CÁI HEADER CỦA CÁI LIST -->
         <div class=NAV_TABLE>            
-            <div class=INFOMATION>PLAN 1</div>
-            <button type="button" class="button-details">></button>
-        </div>
-        <div>
-            <button type="button" class="HIDE_TABLE">></button>
-    
+            
+            <div class="test">aduADU</div>
         </div>
 
-        <!-- CÁI LIST MẤY CHUYẾN ĐI NÈ -->
+
+        
         <div class=TABLE>
-        <div>
-            <div class="trip-scroll">
             
-            <div class="trip-plane">
-                <h2 class="trip-name"> New York</h2> 
-                <h2 class="trip-time"></h2> 
+            <!-- Div này bao hàm image, content, avatar, name, time -->
+            <div>
+
+                <ul class="posts">
+                    <button class="setting-profile" type="button">Setting</button> 
+
+
+                    <div>
+                        <div>
+                            <div class=INFOMATION>Profile</div>
+
+                        </div>
+                            <img src="#" class="avatar-profile">
+                            <div class="name-profile">Khoa Đăng</div>
+                            <div class="bio-profile">Tôi là một thằng lesor<br>Đại học Khoa học Tự Nhiên, ĐHQG-HCM<br>19/09/2003<br>Châu Thành, Tiền Giang</div>
+
+                        </div>
+
+
             </div>
-        
+                   
+                    <!-- ITEM -->
+                   <div class="post-item">
+                        <img class="post-image" src="">
+                        <img class="post-avatar" src="">
+                            <div>
+                                <h4 class="post-name">Your name</h4>
+                                <h4 class="post-time-posted">10h ago</h4>   
+                            </div>
+                            </img>
+                    <h4 class="post-content">Write something</h4> 
+                    </div>
+                    
+                    <!-- ITEM -->
+                    <div class="post-item">
+                        <img class="post-image" src=""> 
+                        <img class="post-avatar" src="">
+                            <div>
+                                <h4 class="post-name">Your name</h4>
+                                <h4 class="post-time-posted">10h ago</h4>   
+                            </div>
+                            </img>
+                        <h4 class="post-content">Write something</h4> 
+                    </div>
 
-            <div class="trip-train">
-                <h2 class="trip-name">Washington</h2> 
-                <h2 class="trip-time"></h2> 
-            </div>
-            
+                </ul> 
 
-            <div class="trip-car">
-                <h2 class="trip-name">Position</h2> 
-                <h2 class="trip-time"></h2> 
-            </div>
-
-
-            <div class="trip-ship">
-                <h2 class="trip-name">Position</h2> 
-                <h2 class="trip-time"></h2> 
-            </div>
-
-                <!-- CÁI SLIDER TRƯỢT QUA LẠI NÈ BRO -->
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                        <p class="slider-title">Optimize</p>
-            
-            </div>
-
-            <!-- ADD THÊM CHUYẾN ĐI BẤT KÌ VÀO PLAN  -->
-            <button type="button" class="trip-add-button">+</button>
-            <div class="title-slider"> Cost optimization</div>
-
-        </div>       
-        
+                </div> 
+            </div>       
         <!-- DIV CỦA TABLE -->
         </div>
       
